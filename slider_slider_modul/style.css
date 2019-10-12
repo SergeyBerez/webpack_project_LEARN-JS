@@ -1,0 +1,21 @@
+.box {
+  margin: 0 auto;
+  width: 600px;
+  text-align: center;
+}
+.slider {
+  position: relative;
+  margin: 0 auto;
+  height: 400px;
+}
+.slider img.show {
+  opacity: 1;
+}
+.slider img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: 1s;
+}
